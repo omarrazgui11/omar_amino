@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+.navigation {
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px black;
+  color: #ebc200;
+  font-weight: 800;
+}
+body {
+  background-color: #0a0f4e;
+  font-family: "viga", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  
+}
+main {
+  position: absolute;
+  margin-left: 300px;
+  width: 75%;
+  padding: 20px;
+  
+  background-color: #343868;
+}
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  background-color: #acc5e0;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.classification {
+  color: #ebc200;
+  text-shadow: 2px 2px 2px black;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  width: 100%;
+
+}
+.navul li{
+  list-style: none;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  border-bottom: solid white 2px;
+  padding-bottom: 3px;
+  border-top: solid white 2px;
+  padding-top: 3px;
+  border-left: solid white 2px;
+  padding-left: 10px;
+  background-color:#397eb9;
+  width: 100%;
+
+}
+.navul li:hover {
+  background-color: #f8d63a;
+}
+navul {
+  height: 100%;
+}
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 300px;
+  min-width: 200px;
+  display: block;
+  background-color: #c4ecf7;
+  border-right: solid white 10px;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.main-section {
+  margin-bottom: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #e0dbff;
+  padding: 20px;
+  border-radius: 20px;
+}
+.main-section:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 815px) {
+  #navbar {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-right: 0;
+    border-radius: 10px;
+	margin-bottom: 30px;
+
+  }
+  .navul li {
+    position: relative;
+    right: 7%;
+    margin-top: 10px;
+    border: none;
+  }
+  .navul  {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  main {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 20px;
+  }
+}
